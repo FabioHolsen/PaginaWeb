@@ -94,13 +94,17 @@ h2#textoInicio {
 }
 div#cabecera {
   display: flex;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   padding-left: 50px;
   padding-right: 50px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color:rgb(223, 223, 223);
 }
 div#navegador {
-  display: flex;
+    display: flex;
+    font-size: 150%
 }
 div#filaInicio {
   display: flex;
